@@ -1,0 +1,27 @@
+[arch04:~/lab4]$ g++ server.cpp -std=c++11 -lpthread -o lab4
+[arch04:~/lab4]$ clear
+
+[arch04:~/lab4]$ g++ server.cpp -std=c++11 -lpthread -o lab4
+[arch04:~/lab4s]$ ./lab4 
+Enter a filename: hello
+Enter a filename: 
+Found hello in 1 second.
+hello
+Enter a filename: 
+Found hello in 1 second.
+hello
+Enter a filename: 
+Found hello in 1 second.
+testfile
+Enter a filename: testfile
+Enter a filename: 
+Found testfile in 1 second.
+Found testfile in 7 seconds.
+testfile
+Enter a filename: testfile
+Enter a filename: te
+Found testfile in 7 seconds.
+Found testfile in 1 second.
+^C exit received. Printing stats.
+We handled 7 inputs.
+[arch04:~/lab4]$ 
