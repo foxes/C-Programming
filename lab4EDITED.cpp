@@ -7,7 +7,7 @@
  * User inputs a string simulating the name of a file to access, program spawns
  * a child thread and sends the user supplied filename to it. The program then
  * immediately repeats the input/spawn sequence.
- * compile with g++ lab4.cpp -Wall -lpthread -o lab4
+ * compile with g++ lab4.cpp -std=c++11 -lpthread -o lab4
  */
 
 #include <iostream>
