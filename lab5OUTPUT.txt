@@ -1,0 +1,15 @@
+[eos28:~/Desktop]$ ./writer
+hello
+hi
+hi
+quit
+[eos28:~/Desktop]$ ./reader
+hello
+hi
+hi
+quit
+[eos28:~/Desktop]$ ./reader
+hello
+hi
+hi
+quit
