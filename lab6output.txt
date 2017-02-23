@@ -1,0 +1,16 @@
+[eos28:~/Desktop]$ gcc lab6.c -Wall -o lab6.o
+[eos28:~/Desktop]$ ./lab6.o 1
+values: 0	1
+[eos28:~/Desktop]$ ./lab6.o 10
+values: 0	1
+[eos28:~/Desktop]$ ./lab6.o 100
+values: 0	1
+[eos28:~/Desktop]$ ./lab6.o 1000
+values: 0	1
+[eos28:~/Desktop]$ ./lab6.o 10000
+values: 0	1
+[eos28:~/Desktop]$ ./lab6.o 100000
+values: 0	1
+[eos28:~/Desktop]$ ./lab6.o 1000000
+values: 0	1
+[eos28:~/Desktop]$ 
