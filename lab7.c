@@ -3,7 +3,7 @@
  * CIS 452
  * Greg Wolffe
  * lab 7
- * Filename: lab7.c
+ * Resolution and Timing under Windows
  */
 #include "stdafx.h"
 #include <Windows.h>
