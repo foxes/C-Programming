@@ -23,7 +23,8 @@ int main() {
 
 
   
-  //he QueryPerformanceCounter() function retrieves the current value of the operating system's high-resolution counter. 
+  //The QueryPerformanceCounter() function retrieves the current value of the operating system's high-resolution counter. 
+  //A non-zero return value indicates success, and the retrieved values will be in the specified variables.
   QueryPerformanceCounter((LARGE_INTEGER *)&startCounter);
   QueryPerformanceCounter((LARGE_INTEGER *)&start);
   QueryPerformanceCounter((LARGE_INTEGER *)&stopCounter);
@@ -34,6 +35,7 @@ int main() {
   
   //The QueryPerformanceFrequency() function retrieves the frequency of the Windows 
   //operating system's high-resolution counter (i.e. number of clock_ticks/sec)
+  //A non-zero return value indicates success, and the retrieved values will be in the specified variables.
   QueryPerformanceFrequency((LARGE_INTEGER *)&freq);
 
   cout << "Frequency: " << freq << " ticks/second" << endl;
