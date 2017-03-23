@@ -24,10 +24,6 @@ static char *data5 = "data";
 static char *unData5;
 
 
-static const char* InitializedData[] = { "data", "data", "data","data", "data"};
-static const char* UninitializedData[] = {};
-
-
 int main (int argc, char *argv[]){
     char * Heap = malloc(sizeof(char)*500);
     int var = 0;
