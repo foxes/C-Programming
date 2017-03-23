@@ -2,7 +2,7 @@
  * Halston Raddatz & Bryana Craig
  * CIS 452
  * Greg Wolffe
- * lab 7
+ * lab 9
  * example program to demonstrate memory management
 */
 
@@ -24,9 +24,10 @@ static char *data5 = "data";
 static char *unData5;
 
 int main (int argc, char *argv[]){
-    char * Heap = malloc(sizeof(char)*500);
+
     int var = 0;
-    int stack[100];
+    int stack[1024];
+    char * Heap = malloc(sizeof(char)*500);
 
     printf("env data =  %p\n", &argc);
     
