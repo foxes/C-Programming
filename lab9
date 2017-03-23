@@ -42,7 +42,6 @@ int main (int argc, char *argv[]){
     printf("data5 = %p, unitialized data5 = %p\n", &data5, &unData5);
  
 
-
     pause();
 
     return 0;
