@@ -3,18 +3,14 @@
  * CIS 452
  * Greg Wolffe
  * lab 7
- * Resolution and Timing under Windows
+ * example program to demonstrate memory management
 */
 
-#define FOO 4096
-
-#include <stdio.h>
-#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-
-
+#include <stdio.h>
+#include <stdlib.h>
 
 static char *data = "data";
 static char *unData1;
