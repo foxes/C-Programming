@@ -1,0 +1,8 @@
+env data =  0x7ffd44b0fa6c
+Stack start = 0x7ffd44b0fc04, Stack[0] = 0x7ffd44b0fa70, Stack[99] = 0x7ffd44b0fbfc
+Heap start =  0x1c6f000, Heap[0] =  0x1c4e010,Heap[499] =  0x1c4e203 
+data1 = 0x601060, unitialized data1 = 0x6010d0
+data2 = 0x601068, unitialized data2 = 0x6010d8
+data3 = 0x601070, unitialized data3 = 0x6010e0
+data4 = 0x601078, unitialized data4 = 0x6010e8
+data5 = 0x601080, unitialized data5 = 0x6010f0
