@@ -1,0 +1,8 @@
+gcc lab11.cpp
+./lab11.cpp
+
+Page Size : 4096 B
+Allocated Memory : 1048.58 KB
+Memory Commited
+free
+Memory Free
